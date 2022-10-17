@@ -1,0 +1,427 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body class="bg-light">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark  p-0" id="menuBar">
+            <div class="container-fluid">
+                <img class="navbar-brand" src="Images/marlabs.png" width="110" height="26" alt="align box" align="CENTER">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse fw-bold" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-4">
+                            <a class="nav-link active font-weight-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li> -->
+                        <li class="nav-item dropdown px-3 ">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Welcome Aboard
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-3">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                HR Policies
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-3">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Others
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span><i class="fa-sharp fa-solid fa-bell pt-1 px-3 text-white"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="sub-navbar shadow py-0">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-between align-items-center">
+                    <ul class="nav">
+                        <li class="nav-item px-2">
+                            <a class="nav-link px-4 active pb-0" aria-current="page" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link px-4" href="#">Me</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link px-4" href="#">Education</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link px-2" href="#">News</a>
+                        </li>
+                        <li class="nav-item px-5">
+                            <a class="nav-link px-4" href="#">Help</a>
+                        </li>
+                    </ul>
+                    <p class="mb-0 fw-bold">Welcome Back, Komal! &nbsp;&nbsp;
+                        <button class="btn bg-primary text-white">
+                            <i class="fa fa-search  "></i>
+
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="divMainBody">
+            <div class="row px-2 py-0">
+                <div class="col-md-7 p-2">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex flex-wrap" style="grid-gap: 1.4rem">
+                                <div class="card  text-white" id="payFinances">
+                                    <div class="card-body text-center px-2 min-width-115">
+                                        <i class="fa-solid fa-wallet fa-2x mb-2"></i>
+                                        <h6 class="mb-0 font-size-14 fw-bold">Pay/Finances</h6>
+                                    </div>
+                                </div>
+                                <div class="card text-white" id="helpDEsk">
+                                    <div class="card-body text-center px-2 min-width-115">
+                                        <i class="fa-solid fa-address-book fa-2x mb-2"></i>
+                                        <h6 class="mb-0 font-size-14 fw-bold">Helpdesk</h6>
+                                    </div>
+                                </div>
+                                <div class="card text-white" id="helpDEsk">
+                                    <div class="card-body text-center px-2 min-width-115">
+                                        <i class="fa-sharp fa-solid fa-plane fa-2x mb-2"></i>
+                                        <h6 class="mb-0 font-size-14 fw-bold">Leave</h6>
+                                    </div>
+                                </div>
+                                <div class="card text-white" id="helpDEsk">
+                                    <div class="card-body text-center px-2 min-width-115">
+                                        <i class="fa-sharp fa-solid fa-stopwatch fa-2x mb-2"></i>
+                                        <h6 class="mb-0 font-size-14 fw-bold">Timesheet</h6>
+                                    </div>
+                                </div>
+                                <div class="card text-white" id="helpDEsk">
+                                    <div class="card-body text-center px-2 min-width-115">
+                                        <i class="fas fa-image fa-2x mb-2"></i>
+                                        <h6 class="mb-0 font-size-14 fw-bold">Gallery</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card my-2">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/slider.jpg" class="d-block w-100" alt="https://picsum.photos/600/250" style="border-radius: var(--bs-card-border-radius);">
+                                    <div class="carousel-caption d-none d-md-block" id="anuualMeeting">
+                                        <h5 class="fw-bold mb-1">Annual Meeting review</h5>
+                                        <div class="row">
+                                            <div class="col-md-9">See the highlights of the meeting held in New Deihi on
+                                                23-01-2022</div>
+                                            <div class="col-md-3 text-end fw-bold">Read more</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/600/250" class="d-block w-100" alt="https://picsum.photos/600/250">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Second slide label</h5>
+                                        <p>Some representative placeholder content for the second slide.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/600/250" class="d-block w-100" alt="https://picsum.photos/600/250">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Third slide label</h5>
+                                        <p>Some representative placeholder content for the third slide.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" id="spanMOveIcon"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true" id="spanMOveIcon"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!--Here comes a Table-->
+                    <div class="card ">
+                        <div class="card-header shadow bg-white pb-0">
+                            <h5 class="blue-bottom-line fw-bolder pt-2 mb-0 pb-2">Organisational News</h5>
+                        </div>
+                    </div>
+                    <div class="container-fluid card mt-1 rounded-0  ">
+                        <div class="row" style="grid-gap: 0.5rem border-0">
+
+                            <div class="col-md-12">
+                                <div class="card-body ">
+                                    <div class="card mb-3 border-0">
+                                        <div class="row ">
+                                            <div class="col-md-5 m-0 p-0">
+                                                <img src="https://picsum.photos/300/200" class="img-fluid rounded-start" alt="https://picsum.photos/300/200" id="imgStyle">
+
+
+                                            </div>
+                                            <div class="col-md-7 m-0 pl-1 ">
+                                                <div class="card-body p-0">
+                                                    <h5 class="card-title mb-1 fs-6 text fw-bold lh-1  ">Artificial
+                                                        Intelligence: Making it work by making it
+                                                        "responsible"<label class="lableDate">March 2,2022</label></h5>
+                                                    <p class="card-text m-1 fs-6 lh-1">This is a wider card with
+                                                        supporting text
+                                                        below as a
+                                                        natural lead-in to additional content. This content is a little
+                                                        bit
+                                                        longer.</p>
+
+                                                    <a href="#" class="link-primary">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mb-3 border-0">
+                                        <div class="row ">
+                                            <div class="col-md-5 m-0 p-0">
+                                                <img src="https://picsum.photos/300/200" class="img-fluid rounded-start" alt="https://picsum.photos/300/200" id="imgStyle">
+                                            </div>
+                                            <div class="col-md-7 m-0 pl-1 ">
+                                                <div class="card-body p-0">
+                                                    <h5 class="card-title mb-1 fs-6 text fw-bold lh-1  ">Artificial
+                                                        Intelligence: Making it work by making it
+                                                        "responsible"<label class="lableDate">March 2,2022</label></h5>
+                                                    <p class="card-text m-1 fs-6 lh-1">This is a wider card with
+                                                        supporting text
+                                                        below as a
+                                                        natural lead-in to additional content. This content is a little
+                                                        bit
+                                                        longer.</p>
+
+                                                    <a href="#" class="link-primary">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-3 border-0">
+                                        <div class="row ">
+                                            <div class="col-md-5 m-0 p-0">
+                                                <img src="https://picsum.photos/300/200" class="img-fluid rounded-start" alt="https://picsum.photos/300/200" id="imgStyle">
+                                            </div>
+                                            <div class="col-md-7 m-0 pl-1 ">
+                                                <div class="card-body p-0">
+                                                    <h5 class="card-title mb-1 fs-6 text fw-bold lh-1  ">Artificial
+                                                        Intelligence: Making it work by making it
+                                                        "responsible" <label class="lableDate">March 2,2022</label></h5>
+                                                    <p class="card-text m-1 fs-6 lh-1">This is a wider card with
+                                                        supporting text
+                                                        below as a
+                                                        natural lead-in to additional content. This content is a little
+                                                        bit
+                                                        longer.</p>
+
+                                                    <a href="#" class="link-primary">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-5 p-2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="">
+                                <div class="card-header cardheader-bg shadow pb-0">
+                                    <h5 class="blue-bottom-line fw-bold  pb-1 pt-4 px-3">Quick Access</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body ">
+                                    <div class="d-flex flex-wrap " style="grid-gap: 0.5rem">
+                                        <div class="card bg-light">
+                                            <div class="card-body text-center px-4 min-width-118">
+                                                <img src="images/Outlook.png" width="25" height="26">
+                                                <h6 class="mb-0 font-size-14 fw-bold">Outlook</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card bg-light">
+                                            <div class="card-body text-center px-4 min-width-118">
+                                                <img src="images/Teams.png" width="25" height="26">
+                                                <h6 class="mb-0 font-size-14 fw-bold">Teams</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card bg-light">
+                                            <div class="card-body text-center px-4 min-width-118">
+                                                <img src="images/Edge-logo.png" width="25" height="26">
+                                                <h6 class="mb-0 font-size-14 fw-bold">Edge</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card bg-light">
+                                            <div class="card-body text-center px-4 min-width-118">
+                                                <img src="images/Excel.png" width="25" height="26">
+                                                <h6 class="mb-0 font-size-14 fw-bold">Excel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card bg-light">
+                                            <div class="card-body text-center px-4 min-width-118">
+                                                <img src="images/Gmail.jpg" width="25" height="26">
+                                                <h6 class="mb-0 font-size-14 fw-bold">Gmail</h6>
+                                            </div>
+                                        </div>
+                                        <div class="card bg-light">
+                                            <div class="card-body text-center px-4 min-width-118">
+                                                <span><img src="images/Linkden.png" width="25" height="26"></span>
+                                                <h6 class="mb-0 font-size-14 fw-bold">LinkedIn</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-12">
+
+
+                            <div class="card my-2 rounded-1 ">
+                                <ul class="card-header cardheader-bg shadow nav nav-pills pb-0 " id="pills-tab" role="tablist">
+                                    <li class="col-md-6">
+                                        <h5 class="blue-bottom-line fw-bold pt-3 mb-0 pb-1 active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Frequently Used</h5>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <h5 class="font-size-14 fw-bold pt-3  mb-0 pb-1" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" tabindex="-1">My Apps
+                                        </h5>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                            <div class="d-flex flex-wrap" style="grid-gap: 0.5rem">
+                                                <div class="card bg-light">
+                                                    <div class="card-body text-center px-4  min-width-114">
+                                                        <h6 class="mb-0 fw-bold">mAdmin</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="card bg-light">
+                                                    <div class="card-body text-center px-4  min-width-114">
+                                                        <h6 class="mb-0 fw-bold">mSeat</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="card bg-light">
+                                                    <div class="card-body text-center px-4  min-width-114">
+                                                        <h6 class="mb-0 fw-bold">mTime</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="card bg-light">
+                                                    <div class="card-body text-center px-4  min-width-114">
+                                                        <h6 class="mb-0 fw-bold">mFleet</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="card bg-light">
+                                                    <div class="card-body text-center px-4 min-width-114 ">
+                                                        <h6 class="mb-0 fw-bold">mDeclare</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="card bg-light">
+                                                    <div class="card-body text-center px-4  min-width-114">
+                                                        <h6 class="mb-0 fw-bold">mAllowance</h6>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                            <div class="d-flex flex-wrap" style="grid-gap: 1.5rem">
+
+                                                <div class="card bg-light">
+                                                    <div class="card-body text-center px-4">
+                                                        <h6 class="mb-0 fw-bold">mSeat</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="card bg-light">
+                                                    <div class="card-body text-center px-4">
+                                                        <h6 class="mb-0 ">mTime</h6>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+</body></html>

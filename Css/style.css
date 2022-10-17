@@ -1,0 +1,131 @@
+ *{
+    font-family: sans-serif;
+ }
+
+ #menuBar{
+   background-color: #292f6c;
+}
+
+.bg-light {
+    background-color: #eee !important;
+}
+
+.sub-navbar {
+    background-color: #fff;
+    padding: 0.5rem 0;
+}
+
+.sub-navbar .nav-link {
+    position: relative;
+    font-weight: bold;
+    color: #888;
+}
+
+.sub-navbar .nav-link.active {
+    color: black;
+}
+
+.sub-navbar .nav-link.active:after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: darkblue;
+    height: 3px;
+    width: 100%;
+}
+
+.img-icon {
+    max-width: 36px;
+    max-height: 36px;
+}
+
+.blue-bottom-line {
+    position: relative;
+    width: fit-content;
+    padding: 0px 1rem;
+    font-size: 14px;
+}
+#divMainBody{
+    background-color: #f6f7fb;
+}
+
+
+.blue-bottom-line:after {
+    content: '';
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: darkblue;
+    height: 3px;
+    width: 100%;
+}
+.link-card .card .card-body {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardheader-bg{
+        background-color: white !important;
+     border-bottom: none !important;
+}
+
+.font-size-14 {
+    font-size: 14px !important;
+}
+
+.min-width-115{
+    min-width: 115px;
+}
+
+.min-width-118{
+    min-width: 146px;
+    /* height: 71px; */
+    padding: 10px;
+  }
+
+  .min-width-117{
+    min-width: 117px;
+  }
+.min-width-114{
+    min-width: 146px;
+    /* height: 71px; */
+    padding: 19px;
+    color:#424879;
+} 
+#payFinances{
+ background-color:   #2b659c;
+}
+#helpDEsk{
+    background-color: #73b8d7;
+}
+#spanMOveIcon{
+    width: 30px;
+    height: 30px;
+    background-color: #ccc0;
+    padding: 3px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+#anuualMeeting{
+    
+    text-align: left;
+   
+    padding-bottom: 0px;
+    left: 3%;
+    line-height: 2px;
+    width: 669px;
+}
+#imgStyle{
+width: 303px;
+    height: 115px;
+}
+.lableDate{
+    color: #a1c8a0;
+}
